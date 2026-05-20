@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra con factura</title>
+</head>
+<body style="background-color: gray;">
+    
+<center>
+    <form action="Ejercicio18.php" method="post">
+
+<h1>Rellene los datos</h1>
+
+        <div class="nombre">
+
+<label for="nombre">Nombre del cliente:</label>
+<input type="text" id="nombre" name="nombre" required placeholder="Coloque su nombre">
+
+        </div><br><br>
+
+        <div class="producto">
+            
+            <label for="producto">Producto:</label>
+            <input type="text" id="producto" name="producto" required placeholder="Nombre del producto">
+            <br><br>
+            <label for="producto2">Producto 2:</label>
+            <input type="text" id="producto2" name="producto2" required placeholder="Nombre del producto">
+
+        </div><br><br>
+
+        <div class="cantidad">
+
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" id="cantidad" name="cantidad" required placeholder="Cantidad a comprar">
+            <br><br>
+             <label for="cantidad2">Cantidad del segundo producto:</label>
+            <input type="number" id="cantidad2" name="cantidad2" required placeholder="Cantidad a comprar">
+
+        </div><br><br>
+
+        <div class="precio unitario">
+
+            <label for="precio">Precio del Producto:</label>
+            <input type="number" id="precio" name="precio" required placeholder="Precio unitario">
+            <br><br>
+             <label for="precio2">Precio del Producto 2:</label>
+            <input type="number" id="precio2" name="precio2" required placeholder="Precio unitario">
+
+
+        </div><br><br>
+
+        <div class="botones">
+
+            <input type="submit" value="Crear factura">
+            <input type="reset" value="borrar">
+
+            <a href="index.php">
+                <button type="button">Index</button>
+            </a>
+        </div>
+
+    </form>
+</center>
+
+</body>
+</html>
