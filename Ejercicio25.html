@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Datos de una persona</title>
+</head>
+<body style="background-color: gray;">
+    
+       <center>
+        <h2>Ingrese sus datos</h2>
+
+        <form action="Ejercicio25.php" method="post">
+
+            <div class="nombre">
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre"  id="nombre" placeholder="Ejemplo: Juan"><br><br>
+
+            </div>
+
+            <div class="correo">
+
+            <label>Correo electrónico:</label>
+            <input type="email" name="correo" id="correo" placeholder="Ejemplo: correo@gmail.com"><br><br>
+
+            </div>
+
+            <div class="cuidad">
+            <label>Ciudad:</label>
+            <input type="text" name="ciudad" required placeholder="Ejemplo: Ahuachapán"><br><br>
+
+            </div>
+
+             <div class="botones">
+
+            <input type="submit" value="siguiente">
+            <input type="reset" value="borrar">
+
+            <a href="index.php">
+                <button type="button">Index</button>
+            </a>
+        </div>
+
+        </form>
+    </center>
+</body>
+</html>
